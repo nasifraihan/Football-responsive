@@ -1,17 +1,22 @@
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
-/* logo */
-<script src="https://kit.fontawesome.com/2ad99e9510.js" crossorigin="anonymous"></script>
-/* Utility */
+
+/*------------- Utility ------------------------*/
 body{
     font-family: 'Noto Sans', sans-serif;
-    background:silver;
+    background:white;
     font-size: 12px;
     font-weight:400;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+  
 }
 
-/* head */
+/*------------- head----------------------- */
 header{
     background-color: rgb(12, 12, 151);
     margin-bottom: 20px;
@@ -36,17 +41,18 @@ left: 156px;
 }
 .button{
     position: relative;
-    top: 70px;
-    right: 400px;
-    border-radius: 5px;
-    background-color: rgb(206, 19, 19);
+    top: 100px;
+    left: -354px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    font-size: 15px;
     color: white;
-    width: 100px;
-    height: 40px;
-    
+    width: 115px;
+    height: 32px;
+    text-align: center;
 }
 
-/* Player style */
+/* -------------Player style---------------- */
 
 main{
     display: flex;
@@ -75,14 +81,10 @@ main{
 .player
 {
     width: 200px;
-    height: 346px;
+    height: 330px;
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 10px 8px 10px #8888885d;
-   
     
-   
- 
-  
 }
 #paragraph
 {
@@ -112,19 +114,26 @@ h2
   bottom: 1rem;
   left: 10px;
 }
-/* footer */
+
+/* -------------footer ------------*/
 .footer{
     position: relative;
-    top: 820px;
+    top: 720px;
     margin-left: 540px  ;
 }
 .footer img{
     width: 400px;
     height: 100px;
 }
+#logo
+{
+    position: relative;
+    left: 200px;
+    font-size: 16px;
+}
 .copyright{
     font-weight: bold;
-    font-size: medium;
+    font-size: 18px;
     position: relative;
     left: 130px;
 }
