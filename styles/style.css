@@ -1,12 +1,49 @@
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+/* logo */
+<script src="https://kit.fontawesome.com/2ad99e9510.js" crossorigin="anonymous"></script>
 /* Utility */
 body{
     font-family: 'Noto Sans', sans-serif;
     background:silver;
     font-size: 12px;
     font-weight:400;
+}
+
+/* head */
+header{
+    background-color: rgb(12, 12, 151);
+    margin-bottom: 20px;
+}
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.intro img{
+    width: 555px;
+    height: 438px;
+    margin-top: 20px;
+}
+#banner
+{
+ color: white;
+font-weight: bold;
+font-size: 64px;
+position: relative;
+left: 156px;
+}
+.button{
+    position: relative;
+    top: 70px;
+    right: 400px;
+    border-radius: 5px;
+    background-color: rgb(206, 19, 19);
+    color: white;
+    width: 100px;
+    height: 40px;
+    
 }
 
 /* Player style */
@@ -37,5 +74,21 @@ main{
     width: 300px;
     height: 426px;
     padding-left: 30px;
+}
+/* footer */
+.footer{
+    position: relative;
+    top: 820px;
+    margin-left: 540px  ;
+}
+.footer img{
+    width: 400px;
+    height: 100px;
+}
+.copyright{
+    font-weight: bold;
+    font-size: medium;
+    position: relative;
+    left: 130px;
 }
 
