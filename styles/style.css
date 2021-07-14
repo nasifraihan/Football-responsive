@@ -1,0 +1,41 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+/* Utility */
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background:silver;
+    font-size: 12px;
+    font-weight:400;
+}
+
+/* Player style */
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1050px;
+    height: 474px; 
+    
+}
+.players 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;  
+    padding-left: 15px;
+    
+}
+.player img{
+    width: 177px;
+    height: 117px;
+}
+.player
+{
+    width: 300px;
+    height: 426px;
+    padding-left: 30px;
+}
+
