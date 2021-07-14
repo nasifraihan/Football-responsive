@@ -63,17 +63,54 @@ main{
     grid-template-columns: repeat(3, 1fr);
     background-color: white;  
     padding-left: 15px;
+    margin-left: 4rem;
     
 }
 .player img{
-    width: 177px;
+    width: 170px;
     height: 117px;
+    padding-left: 15px;
+    padding-top: 13px;
 }
 .player
 {
-    width: 300px;
-    height: 426px;
-    padding-left: 30px;
+    width: 200px;
+    height: 346px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 8px 10px #8888885d;
+   
+    
+   
+ 
+  
+}
+#paragraph
+{
+    width: 11rem;
+    height: 2rem;
+ margin-top: -2rem;
+ padding-left: 10px;
+}
+#card-one
+{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+#card-two
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#card-three
+{
+    margin-left: -35px;
+    margin-top: 20px;
+}
+h2 
+{
+  position: relative;
+  bottom: 1rem;
+  left: 10px;
 }
 /* footer */
 .footer{
